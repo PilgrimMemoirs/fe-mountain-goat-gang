@@ -1,5 +1,7 @@
 body {
-  background-color: #FFCC00;
+  background-image: url(./home_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 20px;
   margin: 0;
 }
