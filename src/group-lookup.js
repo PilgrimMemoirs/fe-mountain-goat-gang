@@ -33,9 +33,9 @@ class GroupLookup extends Component {
 
         <form onSubmit={this.handleSubmit}>
           <label>
-            Group Passcode:
-            <input type="text" value={this.state.value} onChange={this.handleChange} name="group-passcode" />
+            Enter Your Group's Secrect Code
           </label>
+          <input type="text" value={this.state.value} onChange={this.handleChange} name="group-passcode" />
           <input type="submit" value="Go!" />
         </form>
 

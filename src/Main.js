@@ -29,15 +29,15 @@ class Main extends Component {
     return (
       <HashRouter>
         <div>
-          <h1>Mountain Goat Gang</h1>
-          <ul className="header">
-            <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/group-lookup"> Go to Group </NavLink></li>
-          </ul>
-          <div id="hello"></div>
+          <nav>
+            <h1>Mountain Goat Gang</h1>
+            <ul className="header">
+              <li><NavLink to="/">Home</NavLink></li>
+            </ul>
+          </nav>
+
           <div className="content">
-            <Route exact path="/" component={Home}/>
-            <Route path="/group-lookup" component={GroupLookup}/>
+            <Route path="/" component={GroupLookup}/>
             <Route path="/group-dashboard" component={GroupDashboard}/>
           </div>
         </div>

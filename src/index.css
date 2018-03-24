@@ -4,49 +4,34 @@ body {
   background-size: cover;
   padding: 20px;
   margin: 0;
-}
-h1, h2, p, ul, li {
   font-family: sans-serif;
 }
+
+h1 { width: 30%; display: inline-block; }
+ul { width: 60%; display: inline-block; }
+ul.header { padding: 0; }
+
 ul.header li {
   display: inline;
   list-style-type: none;
   margin: 0;
 }
-ul.header {
-  background-color: #111;
-  padding: 0;
-}
+
 ul.header li a {
-  color: #FFF;
+  color: #000;
   font-weight: bold;
   text-decoration: none;
   padding: 20px;
   display: inline-block;
 }
-.content {
-  background-color: #FFF;
-  padding: 20px;
-}
-.content h2 {
-  padding: 0;
-  margin: 0;
-}
-.content li {
-  margin-bottom: 10px;
-}
-.active {
-  background-color: #0099FF;
-}
 
-.btn {
-  font: bold 11px Arial;
-  text-decoration: none;
-  background-color: #EEEEEE;
-  color: #333333;
-  padding: 2px 6px 2px 6px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-}
+.content { text-align: center; }
+.content h2 { padding: 0; margin: 0; }
+.content li { margin-bottom: 10px; }
+.active { color: #0099FF; }
+
+
+form { padding-top: 10rem; }
+label { display: block; font-size: 4rem; }
+input[type="text"] { width: 30rem; font-size: 3rem; }
+input[type="submit"] { width: 10rem; height: 10rem; }
