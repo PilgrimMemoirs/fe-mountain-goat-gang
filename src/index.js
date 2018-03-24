@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import GroupLookup from './group-lookup.js'
+import Main from './Main';
+
 import registerServiceWorker from './registerServiceWorker';
 
-// ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<GroupLookup />, document.getElementById('group-lookup'));
+ReactDOM.render(<Main />, document.getElementById('main'));
+
 registerServiceWorker();
